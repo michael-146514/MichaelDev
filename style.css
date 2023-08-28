@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background-color: #24252A;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+li, a, button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+section{
+    display: grid;
+    min-height: 50vh;
+}
+
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transition: all 1s;
+place-items: center;
+align-content: center;
+}
+
+.show{
+    filter: blur(0);
+opacity: 1;
+transition: all 1s;
+}
+
+.header{
+    padding: 5px;
+    text-align: right;
+    place-items: center;
+    align-content: center;
+    background: #2345;
+    font-size: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+.name{
+    cursor: pointer;
+}
+
+.name:hover{
+    color: rgb(204, 61, 61);
+}
+
+.nav__links{
+    list-style: none;
+    
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+   
+    margin-top: 5px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    color: aliceblue;
+    font-size: 20px;
+    
+    
+}
+
+.nav__links li a:hover {
+    color: rgb(204, 61, 61);
+}
+
+button{
+    padding:  9px 25px;
+    background-color: rgb(199, 199, 199);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover {
+    background-color: rgb(204, 61, 61);
+}
+
+.full-stack{
+   margin-top: 150px;
+    place-items: center;
+    align-content: start;
+    text-align: center;
+}
+
+.coding_lang{
+    text-align: center;
+    background-color: aliceblue;
+    color: #24252A;
+    font-size: 25px;
+}
+
+
+img{
+    width:  170px;
+    height: 150px;
+    margin-right: 50px;   /* Horizontal Space */
+    margin-bottom: 30px; 
+}
